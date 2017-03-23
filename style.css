@@ -1,0 +1,66 @@
+.bodydiv{
+	width: 100%;
+	background-color: white;
+}
+.top{
+	background-color: #b2aac1;
+	
+	
+}
+.logo{
+	 min-height: 100px;
+	 min-width: 100px;
+	 max-width: 120px;
+	 max-height: 120px;
+	  
+}
+.word{
+	color:white;
+}
+#tel{
+	background-color: black;
+	min-height: 50px;
+	margin-bottom:-20px;	
+	 max-height: 60px;
+}
+.tel{
+	margin-bottom:-20px;
+}
+.navbar{
+	background-color: #a6a6a6a;
+}
+.A{
+	padding-top:10px;
+}
+
+
+.dropdown-menu a:hover {background-color: ##b2aac1}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover .drpbt {
+    background-color: #b2aac1;
+}
+.sidebar{
+	background-color: #b2aac1;
+	
+}
+.b{
+	border: 2px solid black;
+}
+.galimg{
+	width: 100%;
+}
+.PubImg{
+	min-height: 60px;
+}
+.horizontal{
+	height: 2px;
+	width: 100%;
+	color: black;
+}
+.btm{
+	color: blue;
+}

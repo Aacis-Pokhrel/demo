@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>Homepage demo</title>
+	
+        
+        
+</head>
+<body>
+
+
+
+	<div class="container"><!-- CONTAINER STARTS HERE -->
+
+
+
+	<!-- LOGO AND TITLE DIV -->
+		<div class="row top">
+			
+
+			<div class="col-sm-4 col-md-4 col-lg-4">
+				<img src="images/logo.jpg"  alt="can logo" class="logo img-circle">
+			</div>
+			
+
+			<div class="col-sm-8 col-md-8 col-lg-8">
+				<p ><h1 class="word" ><strong><font-size="60px" />CAN</strong></h1></p>
+				<p  ><h4 class="word" ><strong>Criket Association Nepal</strong></h4></p>
+			</div>
+			
+
+			
+		</div>
+		<!--LOGO AND TITLE DIV ENDS HERE -->
+
+		<!-- THIS IS THE ROW FOR NAVIGATION BAR -->
+		<div class="row">
+		
+		<nav class="navbar navbar-default">
+  			<div class="container-fluid"><!-- FOR THE BUTTON PART OF NAVBAR -->
+    				<div class="navbar-header">
+      					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><!-- NAME MUST BE SAME WITH THE CLASS OF DIV IN WHICH NAVIGATIOS ARE PRESENT -->
+        						<span class="icon-bar"></span>
+        						<span class="icon-bar"></span>
+        						<span class="icon-bar"></span>                        
+      					</button>
+      					<a class="navbar-brand" href="#">CAN</a>
+    				</div>
+
+    				<div class="collapse navbar-collapse" id="myNavbar">
+      					<ul class="nav navbar-nav">
+      						<li class="active"><a href="#">Home</a></li>
+
+
+      							<li class="dropdown">
+        								<a class="dropdown-toggle drpbt" data-toggle="dropdown" href="#">About
+        										<span class="caret"></span></a>
+        									<ul class="dropdown-menu">
+          										<li align="center"><a href="#">Introduction</a></li>
+          										<li align="center"><a href="#">Strategic plan</a></li>
+          										<li align="center"><a href="#">Organizational Struture</a></li>
+          										<li align="center"><a href="#">Executive board</a></li>
+        									</ul>
+      							</li>
+
+
+      							<li class="dropdown">
+        								<a class="dropdown-toggle drpbt" data-toggle="dropdown" href="#">Resources
+        										<span class="caret"></span></a>
+        									<ul class="dropdown-menu">
+          										<li align="center"><a href="#">1</a></li>
+          										<li align="center"><a href="#">2</a></li>
+          										<li align="center"><a href="#">3</a></li>
+          										<li align="center"><a href="#">4</a></li>
+        									</ul>
+      							</li>
+
+      							
+      							<li class="dropdown">
+        								<a class="dropdown-toggle drpbt" data-toggle="dropdown" href="#">Programs and Campaigns
+        										<span class="caret"></span></a>
+        									<ul class="dropdown-menu">
+          										<li align="center"><a href="#">1</a></li>
+          										<li align="center"><a href="#">2</a></li>
+          										<li align="center"><a href="#">3</a></li>
+          										<li align="center"><a href="#">4</a></li>
+        									</ul>
+      							</li>
+
+      							<li><a href="#"></a></li>
+      							<li><a href="#"></a></li>
+      							<li><a href="#">Player's Profile</a></li>
+      							<li><a href="#">Info</a></li>
+      					</ul>
+      						<ul class="nav navbar-nav navbar-right">
+      							<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      							<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    						</ul>
+      							
+
+      				</div>
+      			</div>
+		</nav>
+
+		
+		</div>
+	
+
+<!-- END OF THE NAVIGATION BAR SECTION -->
+		
+		<div class="row">
+			<div class="col-sm -6 col-lg-5 col-md-5 col-xs-12">
+				<div class="slideer" >
+  					<img class="myslide img-responsive" src="images/img1.jpg" >
+  					<img class="myslide img-responsive" src="images/img3.jpg" >
+  					<img class="myslide img-responsive" src="images/img6.jpg" >
+  					<img class="myslide img-responsive" src="images/img7.jpg" >
+				</div> 
+				<!--  javascript function for moving images -->
+				<script>
+						var counter = 0;
+							slide();
+
+							function slide() {
+    								var i;
+    								var x = document.getElementsByClassName("myslide");
+    								for (i = 0; i < x.length; i++) {
+       									x[i].style.display = "none";  
+    									}
+    								counter++;
+    								if (counter > x.length) {counter = 1}    
+    								x[counter-1].style.display = "block";  
+    								setTimeout(slide, 2500); // Change image every 2 seconds
+								}
+					</script>
+					
+			</div>
+			<div class="col-sm -4 col-lg-4 col-md-4 col-xs-12" >
+				<div><h3>Introduction</h3>
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p><p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p></div>
+			</div>
+			<div class="col-sm -12 col-lg-3  col-md-3 col-xs-12">
+				<div class="row"><div class="sidebar"><strong>Sidebar</strong></div><p>this is ifasdfh fhasddsgj jjdgkl ahfasjdklgfhds dfgaljh</p></div>
+				<div class="row"></div>
+				<div class="row"><div class="sidebar"><strong>Upcoming Events</strong></div><p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue </p></div>
+				<div class="row"></div>
+			</div>
+		</div>
+
+<!-- Slider and that level rows finished -->
+
+		<div class="row">
+			<div class="col-sm -6 col-lg-5 col-md-5 col-xs-12">
+				
+				<div class="row ">
+				<h3><p class="sidebar">Latest Updates</p></h3>
+				<div class="col-lg-12 col-xs-12 col-md-12 col-sm-12">
+					<div class="row "><strong>Subtopic1</strong></div>
+					<img src="images/4.jpg" class="img-responsive pull-left"><p>this is the random text which sorrounds the image</p>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-lg-12 col-xs-12 col-md-12 col-sm-12">
+					<div class="row "><strong>Subtopic2</strong></div>
+					<img src="images/5.jpg" class="img-responsive pull-left"><p>this is the random text which sorrounds the image</p>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-lg-12 col-xs-12 col-md-12 col-sm-12">
+					<div class="row "><strong>Subtopic3</strong></div>
+					<img src="images/6.jpg" class="img-responsive pull-left"><p>this is the random text which sorrounds the image</p>
+				</div>
+				</div>
+			</div>
+				
+			<div class="col-sm -4 col-lg-4 col-md-4 col-xs-12">
+				<div class="row "><div class="col-sm -11 col-lg-11 col-md-11 col-xs-12">
+				<h3 class="sidebar">Projects</h3>
+				
+					<p>What is Lorem Ipsum?
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem 
+						Ipsum has been the industry's standard dummy text ever since the 1500s, 
+					</p>
+				</div></div>
+
+				<div class="row "><div class="col-sm -11 col-lg-11 col-md-11 col-xs-12">
+				<h3 class="sidebar">Articles and reports</h3>
+				
+					<p >Why do we use it?
+						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+						
+					</p>
+				</div></div>
+				
+			</div>
+			<div class="col-sm -12 col-lg-3  col-md-3 col-xs-12 ">
+				<div class="row "><div class="col-sm -11 col-lg-11 col-md-11 col-xs-12">
+				<h3 class="sidebar">Campaigns Movements</h3>
+				<ul>
+					<a href="#">this is first</a></br>
+					<a href="#">this is second </a></br>
+					<a href="#">this is third</a></br>
+					<a href="#">this is fourth</a></br>
+				</ul>
+				</div></div>
+
+				<div class="row "><div class="col-sm -11 col-lg-11 col-md-11 col-xs-12">
+				<h3 class="sidebar">Upcoming matches</h3>
+				<ul>
+					<a href="#">Nep vs Pak</a></br>
+					<a href="#">Nep vs Kenya</a></br>
+					<a href="#">Nep vs srilanka</a></br>
+					<a href="#">nep vs uae</a></br>
+					<a href="#">nep vs hongkong</a></br>
+					<a href="#">nep vs uae</a></br>
+					<a href="#">Nep vs Kenya</a></br>
+					<a href="#">Nep vs srilanka</a></br>
+					<a href="#">nep vs uae</a></br>
+					<a href="#">nep vs hongkong</a></br>
+
+				</ul>
+				</div></div>
+			</div>
+		</div>
+			<!-- end of part below image -->
+
+		<div class="row">
+
+		<!-- gallery part-->
+			<div class="col-sm -6 col-lg-5 col-md-5 col-xs-12">
+				<div class="col-sm -11 col-lg-11 col-md-11 col-xs-12">
+					<div class="row">
+						<h3 class="sidebar">Notice/Vacancy</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada ut augue ac eleifend. Nullam semper dictum sagittis. Etiam nibh metus, posuere in nibh vitae, vulputate fringilla tortor. Ut lacus felis, sagittis lacinia sodales nec, consectetur non mi. Nulla sit amet gravida diam. Pellentesque accumsan finibus tellus et congue
+						</p>
+					</div>
+					<div class="row">
+					<h3 class="sidebar">Gallery</h3>
+						<div class="col-sm-2 col-lg-2 col-md-2 col-xs-4"><img src="images/7.jpg" class="img-responsive"></div>
+						<div class="col-sm-2 col-lg-2 col-md-2 col-xs-4"><img src="images/7.jpg" class="img-responsive"></div>
+						<div class="col-sm-2 col-lg-2 col-md-2 col-xs-4"><img src="images/7.jpg" class="img-responsive"></div>
+						<div class="col-sm-2 col-lg-2 col-md-2 col-xs-4"><img src="images/7.jpg" class="img-responsive"></div>
+						<div class="col-sm-2 col-lg-2 col-md-2 col-xs-4"><img src="images/7.jpg" class="img-responsive"></div>
+
+					</div>
+					<div class="row"><p><a href="#">Go to gallery</a></p></div>
+					<div class="row"><img src="images/8.jpg" alt="gall img" class="galimg img-responsive"></div>
+				</div>
+			</div>
+
+
+			<div class="col-sm -4 col-lg-4 col-md-4 col-xs-12">
+				<div class="col-sm -11 col-lg-11 col-md-11 col-xs-12">
+					<div class="row">
+						<h3 class="sidebar">Press Release</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada ut augue ac eleifend. Nullam semper dictum sagittis. Etiam nibh metus, posuere in nibh vitae, vulputate fringilla tortor. Ut lacus felis, sagittis lacinia sodales nec, consectetur non mi. Nulla sit amet gravida diam. Pellentesque accumsan finibus tellus et congue
+						</p>
+					</div>
+					<div class="row">
+						<h3 class="sidebar">Media Release</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada ut augue ac eleifend. Nullam semper dictum sagittis. Etiam nibh metus, posuere in nibh vitae, vulputate fringilla tortor. Ut lacus felis, sagittis lacinia sodales nec, consectetur non mi. Nulla sit amet gravida diam. Pellentesque accumsan finibus tellus et congueLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada ut augue ac eleifend. Nullam semper dictum sagittis. Etiam nibh metus, posuere in nibh vitae, vulputate fringilla tortor. Ut lacus felis, sagittis lacinia sodales nec
+						</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-sm -12 col-lg-3  col-md-3 col-xs-12 ">
+				<div class="col-sm -11 col-lg-11 col-md-11 col-xs-12">
+				<div class="row">
+						<h3 class="sidebar">publication</h3>
+					</div>
+					<div class="row"><img src="image.jpg" alt="press release 1" class="PubImg img-responsive"></div>
+					<div class="row"><img src="image.jpg" alt="press release 1" class="PubImg img-responsive"></div>
+					<div class="row"><img src="image.jpg" alt="press release 1" class="PubImg img-responsive"></div>
+				</div>
+
+				<div class="row">
+						<strong>Please send your msg feeback or suggestions here</strong>
+						<input type="text" placeholder="Name"><br><br>
+						<input type="text" placeholder="email"><br><br>
+						<input type="text" placeholder="Contact"><br><br>
+						<textarea></textarea><br><br>
+						<input type="submit" value="Send">
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<hr>
+
+
+		<div class="row bottom">
+			<h3 class="btm">Cricket Association of Nepal</h3>
+			<p><a href="#">Cricket association of Nepal</a></p>
+			<p>P.O.Box: 7768</p>
+			<p>Buddhanagar, Naya Baneshwor, Kathmandu, Nepal</p>
+			<p>Tel: +977 1 4782908, +977 1 4781368</p>
+			<p>Fax:+977 1 4780559</p>
+			<p>Email:info@ngofederation.org</p>
+			<p>URL: www.ngofederation.org</p>
+		</div>
+			<hr>
+		<div class="row">
+			<div class="col-md-3 col-xs-6 col-lg-3 col-sm-3"><img src="logo/1.jpg" alt="there might be logo" class="img-responsive loogo"></div>
+			<div class="col-md-3 col-xs-6 col-lg-3 col-sm-3"><img src="logo/2.jpg" alt="there might be logo" class="img-responsive  loogo"></div>
+			<div class="col-md-3 col-xs-6 col-lg-3 col-sm-3"><img src="logo/3.jpg" alt="there might be logo" class="img-responsive  loogo"></div>
+			<div class="col-md-3 col-xs-6 col-lg-3 col-sm-3"><img src="logo/4.jpg" alt="there might be logo" class="img-responsive  loogo"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 col-xs-6 col-lg-2 col-sm-2"><img src="logo/5.jpg" alt="there might be logo" class="img-responsive loogo"></div>
+			<div class="col-md-2 col-xs-6 col-lg-2 col-sm-2"><img src="logo/6.jpg" alt="there might be logo" class="img-responsive  loogo"></div>
+			<div class="col-md-2 col-xs-6 col-lg-2 col-sm-2"><img src="logo/7.jpg" alt="there might be logo" class="img-responsive  loogo"></div>
+			<div class="col-md-3 col-xs-6 col-lg-3 col-sm-3"><img src="logo/8.jpg" alt="there might be logo" class="img-responsive  loogo"></div>
+			<div class="col-md-3 col-xs-6 col-lg-3 col-sm-3"><img src="logo/9.jpg" alt="there might be logo" class="img-responsive  loogo"></div>
+
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-xs-6 col-lg-6 col-sm-6"><img src="logo/10.jpg" alt="there might be logo" class="img-responsive loogo"></div>
+			<div class="col-md-6 col-xs-6 col-lg-6 col-sm-6"><img src="logo/11.jpg" alt="there might be logo" class="img-responsive  loogo"></div>
+
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-xs-12 col-lg-12 col-sm-12"><img src="logo/12.jpg" alt="there might be logo" class="img-responsive loogo"></div>
+		</div>
+
+
+
+	</div>
+
+
+
+			
+					
+</body>
+</html>
